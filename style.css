@@ -1,0 +1,235 @@
+/* Custom styles for the website */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #323131;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.navbar-nav .nav-link {
+    font-size: 1.1rem;
+    color: white !important;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #ffc107 !important;
+}
+
+.jumbotron {
+    background: url('img1.jpg') no-repeat center center;
+    background-size: cover;
+    color: white;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+}
+
+.jumbotron h1 {
+    font-size: 3.5rem;
+    margin-bottom: 20px;
+}
+
+.jumbotron p {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+}
+
+.jumbotron .btn {
+    font-size: 1.25rem;
+    padding: 15px 30px;
+    color: white;
+}
+
+#about img {
+    border: 5px solid #007bff;
+    padding: 5px;
+    border-radius: 50%;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+#about img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+#services .service-box {
+    padding: 20px;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+#services .service-box:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.carousel-item img {
+    height: 60vh;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.carousel-caption {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: #007bff;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+#testimonials .testimonial-box {
+    padding: 20px;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+#testimonials .testimonial-box:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+#testimonials img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+#blog .blog-post {
+    padding: 20px;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+#blog .blog-post:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+
+footer {
+    background-color: #007bff;
+    color: white;
+}
+
+footer .social-icons a {
+    transition: color 0.3s;
+}
+
+footer .social-icons a:hover {
+    color: #ffc107;
+}
+
+.smooth-scroll {
+    transition: all 0.3s;
+}
+
+.smooth-scroll:hover {
+    color: #ffc107 !important;
+}
+
+.col-lg-6 rounded-circle, .col-lg-6 img {
+    width: 50%;
+    margin-left: 35%;
+}
+
+@media (max-width: 768px) {
+    .col-lg-6 rounded-circle, .col-lg-6 img {
+        width: 30%;
+        margin-left: 65%;
+        transform: translateY(-200px);
+    }
+    .col-lg-6 p {
+       padding-right: 40%;
+        
+    }
+    .py-5 {
+        padding-top: 3rem !important;
+    
+}
+
+
+
+}
+
+@media (max-width: 600px) {
+    .col-lg-6 rounded-circle, .col-lg-6 img {
+        width: 30%;
+        margin-left: 65%;
+        transform: translateY(-250px);
+    }
+    .col-lg-6 p {
+       padding-right: 40%;
+        
+    }
+    .py-5 {
+        padding-top: 3rem !important;
+    
+} 
+.container h1 {
+    font-size: 38px;
+}
+}
+
+@media (max-width: 400px) {
+    .col-lg-6 rounded-circle, .col-lg-6 img {
+        width: 35%;
+        margin-left: 60%;
+        transform: translateY(-300px);
+    }
+    .col-lg-6 p {
+       padding-right: 40%;
+        
+    }
+    .py-5 {
+        padding-top: 3rem !important;
+    
+} 
+.container h1 {
+    font-size: 33px;
+}
+.lead {
+    font-size: 21px;
+}
+}
+
+@media (max-width: 320px) {
+    .col-lg-6 rounded-circle, .col-lg-6 img {
+        width: 35%;
+        margin-left: 60%;
+        transform: translateY(-300px);
+    }
+    .col-lg-6 p {
+       padding-right: 40%;
+        
+    }
+    .py-5 {
+        padding-top: 3rem !important;
+    
+} 
+.container h1 {
+    font-size: 27px;
+}
+  .container p {
+    font-size: 18px;
+  }
+  .col-lg-6 p, .list-unstyled {
+    font-size: 15px;
+  }
+}

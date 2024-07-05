@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professional Portfolio</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
+        <a class="navbar-brand" href="#home">MyPortfolio</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#home">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#services">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#projects">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#testimonials">Testimonials</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#blog">Blog</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <header id="home" class="jumbotron jumbotron-fluid text-center text-white">
+        <div class="container">
+            <h1 class="display-4">Welcome to My Portfolio</h1>
+            <p class="lead">Showcasing my work and skills</p>
+            <a href="#about" class="btn btn-lg smooth-scroll">Learn More</a>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <h2>About Me</h2>
+                    <p>I am a web developer with experience in creating dynamic and responsive websites using the latest technologies.</p>
+                    <ul class="list-unstyled">
+                        <li><i class="fas fa-check-circle"></i> Experienced in HTML, CSS, JavaScript, and Bootstrap</li>
+                        <li><i class="fas fa-check-circle"></i> Proficient in backend development with Node.js and PHP</li>
+                        <li><i class="fas fa-check-circle"></i> Passionate about creating user-friendly interfaces</li>
+                    </ul>
+                </div>
+                <div class="col-lg-6">
+                    <img src="profile.jpg" class="img-fluid rounded-circle" alt="About Me">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="bg-light py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">My Services</h2>
+            <div class="row">
+                <div class="col-md-4 text-center">
+                    <div class="service-box">
+                        <i class="fas fa-code fa-3x mb-3"></i>
+                        <h4>Web Development</h4>
+                        <p>Building responsive and dynamic websites tailored to your needs.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 text-center">
+                    <div class="service-box">
+                        <i class="fas fa-paint-brush fa-3x mb-3"></i>
+                        <h4>Web Design</h4>
+                        <p>Creating visually appealing and user-friendly designs.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 text-center">
+                    <div class="service-box">
+                        <i class="fas fa-mobile-alt fa-3x mb-3"></i>
+                        <h4>App Development</h4>
+                        <p>Developing mobile applications for both iOS and Android platforms.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Projects</h2>
+            <div id="projectsCarousel" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="pro1.jpg" class="d-block w-100" alt="Project 1">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>E-COMMERCE</h5>
+                            <p>A robust online store with a shopping cart, user accounts, and payment processing.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="pro2.png" class="d-block w-100" alt="Project 2">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>CHAT BOT</h5>
+                            <p>A real-time chat application with user authentication and instant messaging.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="pro3.png" class="d-block w-100" alt="Project 3">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>FITNESS TRACKER</h5>
+                            <p>A fitness app to log workouts, set goals, and track progress with visual stats.</p>
+                        </div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#projectsCarousel" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#projectsCarousel" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="bg-light py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Testimonials</h2>
+            <div class="row">
+                <div class="col-md-4 text-center">
+                    <div class="testimonial-box">
+                        <img src="client1.jpg" class="rounded-circle mb-3" alt="Client 1">
+                        <h5>Elon Reeve Musk</h5>
+                        <p>"Excellent work, very professional and met all my requirements."</p>
+                    </div>
+                </div>
+                <div class="col-md-4 text-center">
+                    <div class="testimonial-box">
+                        <img src="client2.jpg" class="rounded-circle mb-3" alt="Client 2">
+                        <h5>Mark Zukerberg</h5>
+                        <p>"Great communication and delivered the project on time."</p>
+                    </div>
+                </div>
+                <div class="col-md-4 text-center">
+                    <div class="testimonial-box">
+                        <img src="client3.jpg" class="rounded-circle mb-3" alt="Client 3">
+                        <h5>Pichai Sunderajan</h5>
+                        <p>"High-quality work, I would definitely hire again."</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Section -->
+    <section id="blog" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Blog</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="blog-post">
+                        <img src="blog1.png" class="img-fluid mb-3" alt="Blog 1">
+                        <h5>Embracing Modern Web Design Trends</h5>
+                        <p>Discover the latest trends in web design and how they can enhance user experience and engagement.</p>
+                        <a href="#" class="btn btn-primary">Read More</a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="blog-post">
+                        <img src="blog2.jpg" class="img-fluid mb-3" alt="Blog 2">
+                        <h5>Website Performance for Speed and Efficiency</h5>
+                        <p>Learn essential techniques to optimize website's performance and ensure fast load times.</p>
+                        <a href="#" class="btn btn-primary">Read More</a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="blog-post">
+                        <img src="blog3.png" class="img-fluid mb-3" alt="Blog 3">
+                        <h5>A Comprehensive Guide to SEO Best Practices</h5>
+                        <p>Unlock the secrets to effective SEO and boost your website's visibility in search engine results.</p>
+                        <a href="#" class="btn btn-primary">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Contact Me</h2>
+            <form id="contactForm">
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label for="inputName">Name</label>
+                        <input type="text" class="form-control" id="inputName" placeholder="Name" required>
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="inputEmail">Email</label>
+                        <input type="email" class="form-control" id="inputEmail" placeholder="Email" required>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="inputMessage">Message</label>
+                    <textarea class="form-control" id="inputMessage" rows="4" placeholder="Your message" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-primary text-white text-center py-4">
+        <p>&copy; 2024 MyPortfolio. All rights reserved.</p>
+        <div class="social-icons">
+            <a href="#" class="text-white mx-2"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" class="text-white mx-2"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="text-white mx-2"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
